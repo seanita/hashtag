@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
+gem 'high_voltage'
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
@@ -34,7 +35,7 @@ end
 
 group :development, :test do
 	gem 'rspec-rails'
-	gem 'capybara'
+	gem 'capybara', '1.1.4'
 end
 
 # Use ActiveModel has_secure_password
